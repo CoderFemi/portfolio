@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<title>Pratham</title>
+	<title>Femi</title>
 
 	<!-- Font Awesome for icons  -->
 	<script src="https://kit.fontawesome.com/8de953ada6.js" crossorigin="anonymous"></script>
@@ -10,63 +10,48 @@
 	<!-- css files -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.1/css/bulma.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
 
-	<!-- Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Sacramento&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&display=swap" rel="stylesheet">
-
-	<link rel="icon" href="assets/img/icon.png">
+	<link rel="icon" href="img/icon.png">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta content="width=device-width, initial-scale=1" name="viewport" />
 </head>
 
-<body>
-
-	<video autoplay muted loop id="myVideo">
-		<source src="./assets/img/gif.mp4" type="video/mp4">
-		Your browser does not support HTML5 video.
-	</video>
+<header>
 	<!-- Navbar -->
-	<section class="section section-1">
-		<nav class="nav container void-background">
+	<section class="head-container">
 			<!-- This "nav-menu" is hidden on mobile -->
 			<!-- Add the modifier "is-active" to display it on mobile -->
-			<div class="nav-left">
-
-				<a class="navbar-brand js-scroll-trigger" href="">
-					<span class="d-block d-lg-none">🅟🅡🅐🅣🅗🅐🅜</span>
-				</a>
+			<div class="head-title">
+				<h2 class="navbar-brand">CoderFemi</h2>
 			</div>
-
-			<div class="nav-right nav-menu">
+			<nav class="head-nav">
 				<a class="nav-item" href="#about">About</a>
 				<a class="nav-item" href="#projects">Projects</a>
-				<a class="nav-item" href="https://prathamkumar14.github.io/my-Resume/">Resume</a>
-			</div>
-
-			<span class="nav-toggle">
-				<span></span>
-				<span></span>
-				<span></span>
-			</span>
-		</nav>
+				<a class="nav-item" href="https://coderfemi.github.io/resume/">Resume</a>
+			</nav>
 	</section>
+</header>
 
+<body>
+	
 	<!-- About Me -->
 	<section id="about" class="section section-1 about-me">
 		<div class="container has-text-centered">
-			<img class="avatar" src="assets/img/myPic3.JPG">
+			<img class="avatar" src="img/developer.svg">
 		</div>
-		<div class="container"></br>
-			<p class="intro">
-				Hey there ! I'm Pratham a Delhi based web developer. <br>I have a passion for web development and love to create websites for web and mobile devices.<br><br>
+		<div class="intro"><br>
+			<p class="intro-title">Backend Web Developer</p>
+			<p>
+				Managing Databases&emsp;*&emsp;Building APIs&emsp;*&emsp;Deploying Scalable Apps
 			</p>
-			<p class="intro check-my-projects">Check My Projects</p>
-			<a href="#projects">
-				<p class="intro" id="arrow" style="font-size: 2rem"></p>
-			</a>
+		</div>
+		<div class="intro"><br>
+			<p>More about me:</p>
+			<a href="https://github.com/CoderFemi"><i class=" fa-color fa-flag fa-2x fa-footer fab fa-github"></i></a>
+			<a href="https://twitter.com/femifamoso"><i class=" fa-color fa-flag fa-2x fa-footer fab fa-twitter"></i></a>
+			<a href="https://www.linkedin.com/in/femi-agbebi/"><i class=" fa-color fa-flag fa-2x fa-footer fab fa-linkedin"></i></a>
+			<a href="mailto:olufemiagbebi@gmail.com?subject=YOUR PORTFOLIO"><i class=" fa-color fa-flag fa-2x fa-footer fab fa fa-envelope"></i></a>
 		</div>
 	</section>
 
@@ -74,26 +59,24 @@
 
 	<!-- Projects -->
 	<section id="projects" class="section section-2">
-		<div class="container">
-			<div class="has-text-centered">
-				<u style="color: yellow">
-					<h3 class="title is-3">Projects</h3>
-				</u>
-			</div>
 
+		<div class="container">
+
+			<h3 class="title is-3">Projects</h3>
+			
 			<div class="columns is-multiline is-desktop">
 				<!-- Project 1 -->
 				<div class="column">
-					<div class="box project-text">
+					<div class="project-text">
 						<article>
 							<div>
 								<figure class="image project-figure">
-									<a href="https://peaceful-journey-57785.herokuapp.com/"><img class="project-img" src="assets/img/work-img/Blog.png" alt="Image"></a>
+									<a href="https://femi-bank-app.herokuapp.com/"><img class="project-img" src="img/bankfinder.svg" alt="Image"></a>
 								</figure>
 							</div>
 							<div>
 								<p>
-									Platform where you can share your Views, Ideas, Thoughts, Feelings. This Blog website is made by using MongoDB, Node.js, Express, EJS.
+									BankFinder App.<br>This API was created to consolidate information for all bank branches in Nigeria.<br> Frontend: HTML, CSS, Javascript. <br> Backend: NodeJS, MongoDB, Mongoose, Express.js
 								</p>
 							</div>
 						</article>
@@ -101,16 +84,16 @@
 				</div>
 				<!-- Project 2 -->
 				<div class="column">
-					<div class="box project-text">
+					<div class="project-text">
 						<article>
 							<div>
 								<figure class="image project-figure">
-									<a href="https://prathamkumar14.github.io/tindog/"><img class="project-img" src="assets/img/work-img/Tindog.png" alt="Image"></a>
+									<a href="https://femi-recipe-app.herokuapp.com/"><img class="project-img" src="img/recipe.svg" alt="Image"></a>
 								</figure>
 							</div>
 							<div>
 								<p>
-									Just to check my depth of knowledge in field of web Development, I made a tindog website using some basic stuff. This is an responsive website in terms of Screen size i.e, laptop, tablet, Mobile devices
+									Recipe App.<br>This app functions as an online recipe cookbook.<br> Frontend: HTML, CSS, Javascript, Local Storage. <br> Backend: NodeJS, Express.js Webpack, Babel.
 								</p>
 							</div>
 						</article>
@@ -120,16 +103,16 @@
 			<div class="columns is-multiline is-desktop">
 				<!-- Project 3 -->
 				<div class="column">
-					<div class="box project-text">
+					<div class="project-text">
 						<article>
 							<div>
 								<figure class="image project-figure">
-									<a href="https://pacific-reef-71103.herokuapp.com/"><img class="project-img" src="assets/img/work-img/SignUp.png" alt="Image"></a>
+									<a href="https://femi-weather-app.herokuapp.com/"><img class="project-img" src="img/weather.svg" alt="Image"></a>
 								</figure>
 							</div>
 							<div>
 								<p>
-									This is a Signup page where you can signup and once done your details will be stored in the databse. This project is implemented using external server and some backend techniques.
+									Weather App.<br>Use this app to check the weather in your location.<br> Frontend: HTML, CSS, Javascript. <br> Backend: NodeJS, Express.js, Handlebars.
 								</p>
 							</div>
 						</article>
@@ -137,160 +120,16 @@
 				</div>
 				<!-- Project 4 -->
 				<div class="column">
-					<div class="box project-text">
+					<div class="project-text">
 						<article>
 							<div>
 								<figure class="image project-figure">
-									<a href="https://prathamkumar14.github.io/Drum-Kit/"><img class="project-img" src="assets/img/work-img/DrumKit.png" alt="Image"></a>
+									<a href=""><img class="project-img" src="img/taskmanager.svg" alt="Image"></a>
 								</figure>
 							</div>
 							<div>
 								<p>
-									Play some melody here: This is a virtual drum kit where you can compose your favourite music just by pressing your keyboard's keys.<br>This is Frontend only using javascript.
-								</p>
-							</div>
-						</article>
-					</div>
-				</div>
-			</div> <!-- div of classes columns is-multiline is-desktop -->
-			<div class="columns is-multiline is-desktop">
-				<!-- Project 5 -->
-				<div class="column">
-					<div class="box project-text">
-						<article>
-							<div>
-								<figure class="image project-figure">
-									<a href="https://murmuring-sea-10813.herokuapp.com/"><img class="project-img" src="assets/img/work-img/ToDoList.png" alt="Image"></a>
-								</figure>
-							</div>
-							<div>
-								<p>
-									This project helps you to keep fresh and up-to-date. Organize your work in accordance with their priorities in proper and efficient manner. MongoDB and herko server is the backbone of this project.
-								</p>
-							</div>
-						</article>
-					</div>
-				</div>
-				<!-- Project 6 -->
-				<div class="column">
-					<div class="box project-text">
-						<article>
-							<div>
-								<figure class="image project-figure">
-									<a href="https://prathamkumar14.github.io/Simon-Game/"><img class="project-img" src="assets/img/work-img/SimonGame.png" alt="Image"></a>
-								</figure>
-							</div>
-							<div>
-								<p>
-									This is really a super excited game made by using html,css and jquery where you can check your memory. You have to remember patter in which tiles has been pressed.
-								</p>
-							</div>
-						</article>
-					</div>
-				</div>
-			</div> <!-- div of classes columns is-multiline is-desktop -->
-			<div class="columns is-multiline is-desktop">
-				<!-- Project 7 -->
-				<div class="column">
-					<div class="box project-text">
-						<article>
-							<div>
-								<figure class="image project-figure">
-									<a href="https://548j8.csb.app/"><img class="project-img" src="assets/img/work-img/React-Calculator.png" alt="Image"></a>
-								</figure>
-							</div>
-							<div>
-								<p>
-									React Calculator: As the name suggest it is made using React with some awesome UI. I have implemented this is using Hooks (usestate).
-								</p>
-							</div>
-						</article>
-					</div>
-				</div>
-				<!-- Project 8 -->
-				<div class="column">
-					<div class="box project-text">
-						<article>
-							<div>
-								<figure class="image project-figure">
-									<a href="https://z7vqd.csb.app/"><img class="project-img" src="assets/img/work-img/React-Emojipedia.png" alt="Image"></a>
-								</figure>
-							</div>
-							<div>
-								<p>
-									Depict the correct meaning of every emoji precisely. It has a better UI made by React.
-								</p>
-							</div>
-						</article>
-					</div>
-				</div>
-			</div> <!-- div of classes columns is-multiline is-desktop -->
-			<div class="columns is-multiline is-desktop">
-				<!-- Project 9 -->
-				<div class="column">
-					<div class="box project-text">
-						<article>
-							<div>
-								<figure class="image project-figure">
-									<a href="https://u0kh1.csb.app/"><img class="project-img" src="assets/img/work-img/React-Keeper.png" alt="Image"></a>
-								</figure>
-							</div>
-							<div>
-								<p>
-									Keep notes of everything you learned is best practice to remember it for long time. This is Keeper app (Website) where you can add your notes. This is implemented using React.
-								</p>
-							</div>
-						</article>
-					</div>
-				</div>
-				<!-- Project 10 -->
-				<div class="column">
-					<div class="box project-text">
-						<article>
-							<div>
-								<figure class="image project-figure">
-									<a href="https://r272v.csb.app/"><img class="project-img" src="assets/img/work-img/React-ToDo.png" alt="Image"></a>
-								</figure>
-							</div>
-							<div>
-								<p>
-									A better UI todo list helps you to keep fresh and upto date also helps you to prioritize your work in efficient manner and hence increase your productivity. This project contains a awesome UI because it is implemented using React.
-								</p>
-							</div>
-						</article>
-					</div>
-				</div>
-			</div> <!-- div of classes columns is-multiline is-desktop -->
-			<div class="columns is-multiline is-desktop">
-				<!-- Project 11 -->
-				<div class="column">
-					<div class="box project-text">
-						<article>
-							<div>
-								<figure class="image project-figure">
-									<a href="https://ph6pm.csb.app/"><img class="project-img" src="assets/img/work-img/COVID.png" alt="Image"></a>
-								</figure>
-							</div>
-							<div>
-								<p>
-									A web app of COVID-19 Tracker build using React. It has a statistics about total cases, deaths and number of people recovered from this pandemic. I have used material ui and chart.js for better visualization and UI
-								</p>
-							</div>
-						</article>
-					</div>
-				</div>
-				<!-- Project 12 -->
-				<div class="column">
-					<div class="box project-text">
-						<article>
-							<div>
-								<figure class="image project-figure">
-									<a href="https://ve1pf.csb.app/"><img class="project-img" src="assets/img/work-img/Image.png" alt="Image"></a>
-								</figure>
-							</div>
-							<div>
-								<p>
-									A web app build using React and React spring library for animation. It has bunches of Images fetching from pixabay API. Feel free to click on above images and it will take you to app.
+									Task Manager App.<br>This is an API setup with user authentication, task creation and development testing.<br> Backend: NodeJS, Express.js, MongoDB, Mongoose, Jest.
 								</p>
 							</div>
 						</article>
@@ -304,7 +143,7 @@
 
 	<!-- Contact form -->
 
-	<section class="form section">
+	<!-- <section class="form section">
 
 		<div class="container">
 			<h1 class="form-heading">Let's Collaborate</h1>
@@ -320,27 +159,16 @@
 
 	</section>
 
-	<hr class="line">
+	<hr class="line"> -->
 
 	<!-- Footer -->
-	<footer class="white-section" id="footer">
-
-		<img class="logo" src="assets/img/logo.png">
-
-		<p>Catch me here</p>
-		<a href="https://github.com/PrathamKumar14"><i class=" fa-color fa-2x fa-footer fab fa-github"></i></a>
-		<a href="https://twitter.com/pratham85086605"><i class=" fa-color fa-2x fa-footer fab fa-twitter"></i></a>
-		<a href="https://www.linkedin.com/in/pratham-kumar-abb051175/"><i class=" fa-color fa-2x fa-footer fab fa-linkedin"></i></a>
-		<a href="https://www.facebook.com/profile.php?id=100008740838226"><i class=" fa-color fa-2x fa-footer fab fa-facebook-f"></i></a>
-		<a href="https://www.instagram.com/rnezhmet_dinov/"><i class=" fa-color fa-2x fa-footer fab fa-instagram"></i></a>
-
-		<p class="footer-line">© Copyright 2020: PRATHAM</p>
-
-	</footer>
-
+	
 	<!-- Scripts  -->
-	<script src="animatedArrow.js"></script>
-	<script src="controller.js"></script>
+	<script src="scripts/controller.js"></script>
 </body>
+
+<footer class="white-section" id="footer">
+		
+</footer>
 
 </html>

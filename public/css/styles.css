@@ -1,0 +1,170 @@
+html, body {
+  font-size: 16px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden
+}
+
+.header {
+  color: white;
+  padding: 3.2rem 0
+}
+
+.head-container {
+  display: flex;
+  max-width: 100rem;
+  margin: 0 auto;
+  min-height: 3rem;
+  padding: 1.6rem 3.2rem;
+}
+
+.head-title {
+  text-align: left;
+  flex: 1;
+}
+
+.head-nav {
+  text-align: right;
+  flex: 1;
+}
+
+.line {
+  width: 800px;
+  margin: auto;
+  border: 2px dotted black;
+  border-radius: 50%;
+}
+
+/* .nav {
+  background: linear-gradient(to right, rgb(131, 96, 195), rgb(46, 191, 145)) !important;
+} */
+
+.navbar-brand {
+  font-size: 2rem;
+  color: white;
+}
+
+.nav-item {
+  margin-left: 15px;
+  display:inline-block;
+  color: white !important;
+  font-size: 1.2rem !important;
+}
+
+.nav-item:hover {
+  color:rgb(189, 185, 185) !important;
+}
+
+.avatar {
+  height: 200px;
+  border: none;
+  border-radius: auto;
+}
+
+.fa-flag:hover {
+  color: rgb(147, 209, 211);
+}
+
+a {
+  color: #00d1b2;
+}
+
+a:hover {
+  color: rgba(255, 255, 255, 0.247);
+}
+
+.intro {
+  color: black;
+  text-align: center;
+  margin: none;
+  font-size: 1.5rem;
+}
+
+.intro-title {
+  text-align: center;
+  font-size: 2rem;
+  margin: none;
+}
+
+.title {
+  color: black;
+  text-align: center;
+  font-size: 2.5rem !important;
+  margin-bottom: 15px;
+}
+
+section {
+  background: rgb(83, 102, 211);
+  margin: none;
+  padding-top: none;
+  padding-bottom: none;
+}
+
+.section-1 {
+  width: 100vw;
+}
+
+.about-me {
+  height: 90vh;
+}
+
+.section-2 {
+  width: 100vw;
+}
+
+.intro-description {
+  padding-top: 1rem;
+}
+
+.project-figure {
+  margin: 0 auto 1rem auto;
+  max-height: 256px;
+  max-width: 256px;
+}
+
+.project-img {
+  border-radius: 20px;
+}
+
+.project-title {
+  text-align: center;
+  color: black;
+  font-weight: 500
+}
+
+.project-text {
+  text-align: center;
+  color: black;
+  font-weight: 300;
+}
+
+#footer {
+  margin-top: 2.3rem;
+  padding: 3% 15%;
+  text-align: center;
+  background-color: rgb(83, 102, 211);
+}
+
+.footer-line {
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-menu {
+    background-color: #063647;
+  }
+
+  .nav-toggle:hover {
+    background-color: transparent;
+  }
+
+  .nav-toggle span {
+    background-color: #dfdfdf;
+  }
+
+  .nav-toggle span:hover {
+    background-color: #fff;
+  }
+}
